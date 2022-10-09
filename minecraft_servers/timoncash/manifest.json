@@ -1,1 +1,50 @@
-{}
+{
+  "server_name": "timon",
+  "nice_name": "Timon.Cash",
+  "direct_ip": "timon.cash",
+  "server_wildcards": [
+    "%.timon.cash"
+  ],
+  "supported_languages": [
+     "de"
+  ],
+  "social": {
+    "web": "https://timon.cash",
+    "discord": "https://discord.gg/EDSKZXPtJx",
+  },
+  "gamemodes": {
+    "survival": {
+      "name": "Survival", 
+      "color": "#55FF55",
+      "command": "/server survival",
+      "versions": "1.19<*"
+    },
+    "kitbattle": {
+      "name": "KitBattle",
+      "color": "#55FF55",
+      "command": "/server kitbattle",
+      "versions": "1.8<*"
+	},
+    "superjump": {
+      "name": "SuperJump",
+      "color": "#55FF55",
+      "command": "/server superjump",
+      "versions": "1.8<*"
+    }
+  },
+  "discord": {
+    "server_id": 916779145646706698,
+    "rename_to_minecraft_name": false
+  },
+  "brand": {
+     "primary": "#008FE8",
+     "background": "#0A56A5",
+     "text": "#FFFFFF"
+  }, 
+  "location": {
+     "city": "Nürnberg",
+     "country": "Germany",
+     "country_code": "DE"
+  },
+  "user_stats": "https://laby.net/@{userName}"
+}
